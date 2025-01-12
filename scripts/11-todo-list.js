@@ -21,10 +21,10 @@ function renderTodoList(){
 
     //creates HTML elements dynamically in the div
     const html=`
-        <div>
+        <div class="name">
            ${name}
         </div> 
-        <div>
+        <div class="due-date">
             ${dueDate}
          </div>
         
